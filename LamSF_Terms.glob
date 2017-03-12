@@ -1,0 +1,155 @@
+DIGEST 313cd791a5b1ae224cf682fdea646629
+FLamSF_Terms
+R2283:2287 Coq.Arith.Arith <> <> lib
+R2305:2311 General <> <> lib
+R2329:2332 Test <> <> lib
+ind 2413:2420 <> operator
+constr 2428:2430 <> Sop
+constr 2435:2437 <> Aop
+constr 2442:2444 <> Kop
+constr 2449:2451 <> Eop
+constr 2456:2458 <> Gop
+constr 2463:2465 <> Qop
+constr 2469:2471 <> Uop
+constr 2475:2477 <> Yop
+constr 2481:2484 <> DSop
+constr 2488:2491 <> DAop
+constr 2495:2498 <> DKop
+constr 2502:2505 <> DEop
+constr 2509:2512 <> DGop
+constr 2516:2519 <> DQop
+constr 2523:2526 <> DUop
+constr 2530:2533 <> DYop
+R2431:2431 LamSF_Terms <> operator ind
+R2438:2438 LamSF_Terms <> operator ind
+R2445:2445 LamSF_Terms <> operator ind
+R2452:2452 LamSF_Terms <> operator ind
+R2459:2459 LamSF_Terms <> operator ind
+R2466:2466 LamSF_Terms <> operator ind
+R2472:2472 LamSF_Terms <> operator ind
+R2478:2478 LamSF_Terms <> operator ind
+R2485:2485 LamSF_Terms <> operator ind
+R2492:2492 LamSF_Terms <> operator ind
+R2499:2499 LamSF_Terms <> operator ind
+R2506:2506 LamSF_Terms <> operator ind
+R2513:2513 LamSF_Terms <> operator ind
+R2520:2520 LamSF_Terms <> operator ind
+R2527:2527 LamSF_Terms <> operator ind
+R2534:2534 LamSF_Terms <> operator ind
+R2556:2563 LamSF_Terms <> operator ind
+ind 2578:2582 <> lamSF
+constr 2597:2599 <> Ref
+constr 2621:2622 <> Op
+constr 2650:2652 <> Abs
+constr 2677:2679 <> App
+R2610:2614 LamSF_Terms <> lamSF ind
+R2603:2605 Coq.Init.Datatypes <> nat ind
+R2639:2643 LamSF_Terms <> lamSF ind
+R2627:2634 LamSF_Terms <> operator ind
+R2665:2669 LamSF_Terms <> lamSF ind
+R2656:2660 LamSF_Terms <> lamSF ind
+R2701:2705 LamSF_Terms <> lamSF ind
+R2692:2696 LamSF_Terms <> lamSF ind
+R2683:2687 LamSF_Terms <> lamSF ind
+prf 2716:2738 <> decidable_term_equality
+R2755:2759 LamSF_Terms <> lamSF ind
+R2768:2771 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2764:2766 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2763:2763 LamSF_Terms <> M var
+R2767:2767 LamSF_Terms <> N var
+R2773:2775 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R2772:2772 LamSF_Terms <> M var
+R2776:2776 LamSF_Terms <> N var
+def 2845:2852 <> relocate
+R2863:2865 Coq.Init.Datatypes <> nat ind
+R2879:2882 Test <> test def
+R2886:2886 LamSF_Terms <> i var
+R2884:2884 LamSF_Terms <> k var
+R2912:2915 Coq.Init.Specif <> left constr
+R2923:2923 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R2922:2922 LamSF_Terms <> n var
+R2924:2924 LamSF_Terms <> i var
+R2947:2947 LamSF_Terms <> i var
+def 2966:2973 <> lift_rec
+R2980:2984 LamSF_Terms <> lamSF ind
+R3003:3007 LamSF_Terms <> lamSF ind
+R2996:2998 Coq.Init.Datatypes <> nat ind
+R2989:2991 Coq.Init.Datatypes <> nat ind
+R3034:3034 LamSF_Terms <> L var
+R3045:3047 LamSF_Terms <> Ref constr
+R3054:3056 LamSF_Terms <> Ref constr
+R3059:3066 LamSF_Terms <> relocate def
+R3072:3072 LamSF_Terms <> n var
+R3070:3070 LamSF_Terms <> k var
+R3079:3080 LamSF_Terms <> Op constr
+R3087:3088 LamSF_Terms <> Op constr
+R3096:3098 LamSF_Terms <> App constr
+R3107:3109 LamSF_Terms <> App constr
+R3129:3136 LamSF_Terms <> lift_rec def
+R3142:3142 LamSF_Terms <> n var
+R3140:3140 LamSF_Terms <> k var
+R3112:3119 LamSF_Terms <> lift_rec def
+R3125:3125 LamSF_Terms <> n var
+R3123:3123 LamSF_Terms <> k var
+R3149:3151 LamSF_Terms <> Abs constr
+R3158:3160 LamSF_Terms <> Abs constr
+R3163:3170 LamSF_Terms <> lift_rec def
+R3180:3180 LamSF_Terms <> n var
+R3175:3175 Coq.Init.Datatypes <> S constr
+R3177:3177 LamSF_Terms <> k var
+def 3202:3205 <> lift
+R3212:3214 Coq.Init.Datatypes <> nat ind
+R3222:3226 LamSF_Terms <> lamSF ind
+R3232:3239 LamSF_Terms <> lift_rec def
+R3245:3245 LamSF_Terms <> n var
+R3241:3241 LamSF_Terms <> N var
+def 3281:3290 <> insert_Ref
+R3297:3301 LamSF_Terms <> lamSF ind
+R3311:3313 Coq.Init.Datatypes <> nat ind
+R3327:3333 Test <> compare def
+R3337:3337 LamSF_Terms <> i var
+R3335:3335 LamSF_Terms <> k var
+R3362:3367 Coq.Init.Specif <> inleft constr
+R3370:3373 Coq.Init.Specif <> left constr
+R3381:3383 LamSF_Terms <> Ref constr
+R3386:3389 Coq.Init.Peano <> pred def
+R3391:3391 LamSF_Terms <> i var
+R3409:3414 Coq.Init.Specif <> inleft constr
+R3421:3424 LamSF_Terms <> lift def
+R3428:3428 LamSF_Terms <> N var
+R3426:3426 LamSF_Terms <> k var
+R3450:3452 LamSF_Terms <> Ref constr
+R3454:3454 LamSF_Terms <> i var
+def 3473:3481 <> subst_rec
+R3488:3492 LamSF_Terms <> lamSF ind
+R3513:3517 LamSF_Terms <> lamSF ind
+R3506:3508 Coq.Init.Datatypes <> nat ind
+R3497:3501 LamSF_Terms <> lamSF ind
+R3533:3537 LamSF_Terms <> lamSF ind
+R3545:3547 Coq.Init.Datatypes <> nat ind
+R3561:3561 LamSF_Terms <> L var
+R3572:3574 LamSF_Terms <> Ref constr
+R3581:3590 LamSF_Terms <> insert_Ref def
+R3596:3596 LamSF_Terms <> k var
+R3592:3592 LamSF_Terms <> N var
+R3602:3603 LamSF_Terms <> Op constr
+R3610:3611 LamSF_Terms <> Op constr
+R3619:3621 LamSF_Terms <> App constr
+R3631:3633 LamSF_Terms <> App constr
+R3654:3662 LamSF_Terms <> subst_rec def
+R3669:3669 LamSF_Terms <> k var
+R3667:3667 LamSF_Terms <> N var
+R3636:3644 LamSF_Terms <> subst_rec def
+R3650:3650 LamSF_Terms <> k var
+R3648:3648 LamSF_Terms <> N var
+R3676:3678 LamSF_Terms <> Abs constr
+R3685:3687 LamSF_Terms <> Abs constr
+R3690:3698 LamSF_Terms <> subst_rec def
+R3705:3705 Coq.Init.Datatypes <> S constr
+R3707:3707 LamSF_Terms <> k var
+R3702:3702 LamSF_Terms <> N var
+def 3731:3735 <> subst
+R3744:3748 LamSF_Terms <> lamSF ind
+R3754:3762 LamSF_Terms <> subst_rec def
+R3766:3766 LamSF_Terms <> N var
+R3764:3764 LamSF_Terms <> M var

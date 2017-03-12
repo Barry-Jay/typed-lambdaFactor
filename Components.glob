@@ -1,0 +1,204 @@
+DIGEST 749be715e1e37ce5ece8354d99887c79
+FComponents
+R2136:2140 Coq.Arith.Arith <> <> lib
+R2158:2161 Test <> <> lib
+R2180:2186 General <> <> lib
+R2204:2214 LamSF_Terms <> <> lib
+R2233:2245 LamSF_Tactics <> <> lib
+R2263:2285 LamSF_Substitution_term <> <> lib
+def 2302:2305 <> s_op
+R2310:2311 LamSF_Terms <> Op constr
+R2313:2315 LamSF_Terms <> Sop constr
+def 2329:2332 <> a_op
+R2337:2338 LamSF_Terms <> Op constr
+R2340:2342 LamSF_Terms <> Aop constr
+def 2356:2359 <> k_op
+R2364:2365 LamSF_Terms <> Op constr
+R2367:2369 LamSF_Terms <> Kop constr
+def 2383:2386 <> e_op
+R2391:2392 LamSF_Terms <> Op constr
+R2394:2396 LamSF_Terms <> Eop constr
+def 2410:2413 <> g_op
+R2418:2419 LamSF_Terms <> Op constr
+R2421:2423 LamSF_Terms <> Gop constr
+def 2437:2440 <> q_op
+R2445:2446 LamSF_Terms <> Op constr
+R2448:2450 LamSF_Terms <> Qop constr
+def 2464:2467 <> u_op
+R2472:2473 LamSF_Terms <> Op constr
+R2475:2477 LamSF_Terms <> Uop constr
+def 2491:2494 <> y_op
+R2499:2500 LamSF_Terms <> Op constr
+R2502:2504 LamSF_Terms <> Yop constr
+def 2518:2521 <> i_op
+R2526:2528 LamSF_Terms <> App constr
+R2546:2549 Components <> k_op def
+R2531:2533 LamSF_Terms <> App constr
+R2540:2543 Components <> k_op def
+R2535:2538 Components <> s_op def
+def 2563:2572 <> other_left
+R2577:2579 LamSF_Terms <> App constr
+R2597:2600 Components <> i_op def
+R2582:2584 LamSF_Terms <> App constr
+R2591:2594 Components <> k_op def
+R2586:2589 Components <> s_op def
+def 2614:2621 <> abs_left
+R2626:2629 Components <> i_op def
+R2736:2743 Components <> abs_left def
+R2746:2755 Components <> other_left def
+R2759:2762 Components <> i_op def
+R2765:2768 Components <> s_op def
+R2771:2774 Components <> a_op def
+R2777:2780 Components <> k_op def
+R2783:2786 Components <> e_op def
+R2789:2792 Components <> g_op def
+R2795:2798 Components <> q_op def
+R2801:2804 Components <> u_op def
+R2807:2810 Components <> y_op def
+R2855:2858 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2855:2858 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+def 2968:2975 <> abs_rank
+def 3046:3049 <> rank
+R3055:3059 LamSF_Terms <> lamSF ind
+R3072:3072 Components <> M var
+R3082:3084 LamSF_Terms <> Ref constr
+R3095:3096 LamSF_Terms <> Op constr
+R3107:3109 LamSF_Terms <> App constr
+R3120:3120 Coq.Init.Datatypes <> S constr
+R3122:3122 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3130:3134 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3142:3142 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3123:3126 Components <> rank def
+R3135:3138 Components <> rank def
+R3147:3149 LamSF_Terms <> Abs constr
+R3166:3168 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R3158:3165 Components <> abs_rank def
+R3169:3172 Components <> rank def
+prf 3189:3201 <> rank_positive
+R3220:3222 Coq.Init.Peano <> :nat_scope:x_'>'_x not
+R3214:3217 Components <> rank def
+R3219:3219 Components <> M var
+R3354:3357 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R3353:3353 Components <> p var
+R3358:3361 Components <> rank def
+R3363:3363 Components <> M var
+R3448:3449 Coq.Init.Peano <> :nat_scope:x_'>'_x not
+R3442:3445 Components <> rank def
+prf 3505:3527 <> lift_rec_preserves_rank
+R3543:3547 LamSF_Terms <> lamSF ind
+R3556:3558 Coq.Init.Datatypes <> nat ind
+R3583:3585 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3562:3565 Components <> rank def
+R3568:3575 LamSF_Terms <> lift_rec def
+R3581:3581 Components <> k var
+R3579:3579 Components <> n var
+R3577:3577 Components <> M var
+R3586:3589 Components <> rank def
+R3591:3591 Components <> M var
+def 3670:3673 <> star
+R3687:3687 Components <> M var
+R3697:3699 LamSF_Terms <> Ref constr
+R3706:3709 Components <> i_op def
+R3714:3716 LamSF_Terms <> Ref constr
+R3719:3719 Coq.Init.Datatypes <> S constr
+R3727:3729 LamSF_Terms <> App constr
+R3737:3739 LamSF_Terms <> Ref constr
+R3731:3734 Components <> k_op def
+R3746:3747 LamSF_Terms <> Op constr
+R3754:3756 LamSF_Terms <> App constr
+R3764:3765 LamSF_Terms <> Op constr
+R3758:3761 Components <> k_op def
+R3772:3774 LamSF_Terms <> Abs constr
+R3783:3785 LamSF_Terms <> App constr
+R3793:3795 LamSF_Terms <> Abs constr
+R3798:3801 Components <> star def
+R3787:3790 Components <> a_op def
+R3810:3812 LamSF_Terms <> App constr
+R3823:3825 LamSF_Terms <> App constr
+R3848:3850 LamSF_Terms <> Abs constr
+R3828:3830 LamSF_Terms <> App constr
+R3838:3840 LamSF_Terms <> Abs constr
+R3832:3835 Components <> s_op def
+prf 3869:3877 <> rank_star
+R3904:3906 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3891:3894 Components <> rank def
+R3897:3900 Components <> star def
+R3902:3902 Components <> M var
+R3907:3910 Components <> rank def
+R3913:3915 LamSF_Terms <> Abs constr
+R3917:3917 Components <> M var
+prf 4028:4041 <> star_monotonic
+R4078:4080 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4077:4077 Components <> M var
+R4081:4081 Components <> N var
+R4064:4066 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4058:4061 Components <> star def
+R4063:4063 Components <> M var
+R4067:4070 Components <> star def
+R4072:4072 Components <> N var
+R4396:4398 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4396:4398 Coq.Init.Logic <> :type_scope:x_'='_x not
+prf 4528:4550 <> lift_rec_preserves_star
+R4566:4570 LamSF_Terms <> lamSF ind
+R4601:4603 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4581:4588 LamSF_Terms <> lift_rec def
+R4600:4600 Components <> k var
+R4598:4598 Components <> n var
+R4590:4593 Components <> star def
+R4595:4595 Components <> M var
+R4604:4607 Components <> star def
+R4610:4617 LamSF_Terms <> lift_rec def
+R4627:4627 Components <> k var
+R4622:4622 Coq.Init.Datatypes <> S constr
+R4624:4624 Components <> n var
+R4619:4619 Components <> M var
+R4693:4705 LamSF_Tactics <> relocate_succ thm
+R4693:4705 LamSF_Tactics <> relocate_succ thm
+def 4770:4784 <> right_component
+R4791:4795 LamSF_Terms <> lamSF ind
+R4808:4808 Components <> M var
+R4818:4819 LamSF_Terms <> Op constr
+R4826:4829 Components <> k_op def
+R4833:4835 LamSF_Terms <> App constr
+R4850:4852 LamSF_Terms <> Abs constr
+R4860:4863 Components <> star def
+R4875:4875 Components <> M var
+def 4894:4907 <> left_component
+R4914:4918 LamSF_Terms <> lamSF ind
+R4931:4931 Components <> U var
+R4941:4942 LamSF_Terms <> Op constr
+R4949:4951 LamSF_Terms <> App constr
+R4959:4960 LamSF_Terms <> Op constr
+R4953:4956 Components <> k_op def
+R4967:4969 LamSF_Terms <> Abs constr
+R4976:4983 Components <> abs_left def
+R4987:4989 LamSF_Terms <> App constr
+R5010:5019 Components <> other_left def
+prf 5036:5066 <> lift_rec_preserves_components_l
+R5082:5086 LamSF_Terms <> lamSF ind
+R5127:5129 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5097:5104 LamSF_Terms <> lift_rec def
+R5126:5126 Components <> k var
+R5124:5124 Components <> n var
+R5106:5119 Components <> left_component def
+R5121:5121 Components <> M var
+R5130:5143 Components <> left_component def
+R5145:5152 LamSF_Terms <> lift_rec def
+R5158:5158 Components <> k var
+R5156:5156 Components <> n var
+R5154:5154 Components <> M var
+prf 5235:5265 <> lift_rec_preserves_components_r
+R5281:5285 LamSF_Terms <> lamSF ind
+R5327:5329 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5296:5303 LamSF_Terms <> lift_rec def
+R5326:5326 Components <> k var
+R5324:5324 Components <> n var
+R5305:5319 Components <> right_component def
+R5321:5321 Components <> M var
+R5330:5344 Components <> right_component def
+R5346:5353 LamSF_Terms <> lift_rec def
+R5359:5359 Components <> k var
+R5357:5357 Components <> n var
+R5355:5355 Components <> M var
+R5403:5425 Components <> lift_rec_preserves_star thm
+R5403:5425 Components <> lift_rec_preserves_star thm
