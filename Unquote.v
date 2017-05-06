@@ -473,7 +473,7 @@ eval_lamSF. eval_lamSF. eval_lamSF.
 Qed. 
 
 
-Lemma unquote_quote_lemma : 
+Theorem unquote_quote : 
 forall M, program M -> lamSF_red  (App (App (Op Yop) unquote_fn) (slow_quote M)) M. 
 Proof. 
 rank_tac. 
@@ -541,8 +541,3 @@ inversion H0; split_all. inversion H1.  auto. simpl in *; max_out.
 intro; subst. inversion H0. inversion H1. eapply2 H7. auto. auto. 
 eval_lamSF. eval_lamSF.
 Qed. 
-
-Theorem unquote_quote : 
-forall M, program M -> lamSF_red  (App unquote (slow_quote M)) M. 
-Proof.  intros; unfold unquote. eval_lamSF. eapply2 unquote_quote_lemma. Qed.
-
